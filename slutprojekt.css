@@ -1,0 +1,40 @@
+body{
+background-color: #FADADA ;
+}
+
+.grid-container{
+display: grid;
+}
+
+
+header{
+grid-area: header;
+
+}
+
+nav{
+    grid-area: nav;
+}
+.Leftside{
+grid-area: leftside;
+}
+
+.Rightside{
+grid-area: rightside;
+}
+
+article{
+grid-area: article;
+}
+
+footer{
+grid-area: footer;
+}
+
+ul{
+
+}
+
+li{
+
+}

@@ -27,3 +27,8 @@ idag har jag gjort klart det mesta till den grafiska manualen. det är bara en s
 26/4 Hemma
 
 nu är den grafiska manuallen färsdig och inlämmnad 
+
+
+28/4 lektion 
+
+Idag har jag börjat strukterera upp första sidan och börjat jobba lite med css.
