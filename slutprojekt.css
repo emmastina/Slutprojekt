@@ -4,6 +4,11 @@ background-color: #FADADA ;
 
 .grid-container{
 display: grid;
+grid-template-areas: 
+'nav nav nav'
+'header header header'
+'leftside article rightside'
+'footer footer footer';
 }
 
 
@@ -15,6 +20,7 @@ grid-area: header;
 nav{
     grid-area: nav;
 }
+
 .Leftside{
 grid-area: leftside;
 }
@@ -25,16 +31,29 @@ grid-area: rightside;
 
 article{
 grid-area: article;
+background-color:#F2F3C5 ;
 }
 
 footer{
 grid-area: footer;
+background-color:#F2F3C5 ;
+margin-top: 400px;
 }
 
 ul{
-
+list-style: none;
 }
 
 li{
 
+}
+
+h1{
+    text-align: center;
+    font-family: Italiana;
+}
+
+h2{
+   text-align: center;
+   font-family: nått; 
 }
