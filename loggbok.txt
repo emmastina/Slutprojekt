@@ -41,3 +41,7 @@ idag har jag fortsatt med första sidan. ska fixa klart den denna veckan är pla
 4/5 lektion
 
 har forsatt på första sidan och bestämt mig för tt gör om lite i layouten. har även börjat fixa på en droppdown till sidan man kan se skötselråd till blomor på så man kommer direkt på den titlen man söker.
+
+4/5 hemma
+
+fixade lite med droppdown sakerna, fixade även till kassaikonen lite.
