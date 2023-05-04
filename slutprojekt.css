@@ -5,9 +5,8 @@ background-color: #FADADA ;
 .grid-container{
 display: grid;
 grid-template-areas: 
-'nav nav nav'
 'header header header'
-'leftside article rightside'
+'nav article rightside'
 'footer footer footer';
 }
 
@@ -32,12 +31,16 @@ grid-area: rightside;
 article{
 grid-area: article;
 background-color:#F2F3C5 ;
+padding: 10px;
+width: 200pxs;
 }
 
 footer{
 grid-area: footer;
 background-color:#F2F3C5 ;
-margin-top: 400px;
+position: absolute;
+bottom: 0;
+width: 100%;
 }
 
 ul{
@@ -57,3 +60,4 @@ h2{
    text-align: center;
    font-family: nått; 
 }
+
