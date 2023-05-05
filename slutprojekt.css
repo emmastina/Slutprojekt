@@ -2,14 +2,17 @@ body{
 background-color: #FADADA  ;
 }
 
-.kassa{
-margin-left: 90%;
+.float-end{
+position: static;
+float: right;
 }
+
 .grid-container{
 display: grid;
 grid-template-areas: 
+'nav nav nav'
 'header header header'
-'nav article rightside'
+'leftside article rightside'
 'footer footer footer';
 }
 
@@ -31,14 +34,14 @@ article{
 grid-area: article;
 background-color:#F2F3C5 ;
 padding: 10px;
-width: 250px;
+
 
 }
 
 footer{
 grid-area: footer;
 background-color:#F2F3C5 ;
-position: absolute;
+position: static;
 bottom: 0;
 width: 100%;
 }
