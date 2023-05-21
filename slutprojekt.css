@@ -11,19 +11,14 @@ float: right;
 display: grid;
 grid-template-areas: 
 'nav nav nav'
-'header header header'
 'leftside article rightside'
 'footer footer footer';
 }
 
-
-header{
-grid-area: header;
-
-}
-
 nav{
     grid-area: nav;
+    background-color: #F2F3C5;
+
 }
 
 .Rightside{
@@ -33,7 +28,10 @@ grid-area: rightside;
 article{
 grid-area: article;
 background-color:#F2F3C5 ;
-padding: 10px;
+padding: 30px;
+width: 80% center;
+margin: 20px;
+border: #FADADA 5px;
 
 
 }
@@ -42,8 +40,9 @@ footer{
 grid-area: footer;
 background-color:#F2F3C5 ;
 position: static;
-bottom: 0;
 width: 100%;
+padding: 5px;
+margin: 0px;
 }
 
 ul{
@@ -64,6 +63,11 @@ h2{
    font-family: nått; 
 }
 
+.vader-ikon{
+  position: static;
+  float: right;
+}
+
 
 .dropbtn {
     background-color: #F2F3C5;
@@ -81,7 +85,7 @@ h2{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #F2F3C5;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -94,7 +98,7 @@ h2{
     display: block;
   }
    
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #FADADA;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
